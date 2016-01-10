@@ -8,11 +8,16 @@
 
 import UIKit
 
-class AllViewController: UIViewController {
+class AllViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
+    @IBOutlet weak var tableView: UITableView!
+    let items = ["Java", "Ruby", "JavaScript", "C", "Swift", "Lisp"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        tableView.delegate = self
+        tableView.dataSource = self
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +25,14 @@ class AllViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return items.count
+    }
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCellWithIdentifier("MyCell", forIndexPath: indexPath)
+        cell.textLabel!.text = items[indexPath.row]
+        return cell
+    }
 }
 
