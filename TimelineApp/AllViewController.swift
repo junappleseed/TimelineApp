@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  AllViewController.swift
 //  TimelineApp
 //
 //  Created by Jun on 2016/01/10.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class AllViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
