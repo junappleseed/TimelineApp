@@ -38,8 +38,8 @@ class AllViewController: UIViewController, UITableViewDelegate, UITableViewDataS
     }
     
     func setupEntrys() {
-        let e1 = Entry(username: "Javaちゃん", title: "ここにタイトルを表示します。")
-        let e2 = Entry(username: "Swiftちゃん", title: "なにか書く")
+        let e1 = Entry(username: "Javaちゃん", title: "このアプリについて")
+        let e2 = Entry(username: "Swiftちゃん", title: "Markdown記法チートシート")
         entrys.append(e1)
         entrys.append(e2)
     }
