@@ -14,7 +14,7 @@ class AllCustomCell: UITableViewCell {
     @IBOutlet weak var titleLabel: UILabel!
     
     func setCell(entry: Entry) {
-        self.usernameLabel.text = entry.username
-        self.titleLabel.text = entry.title
+        usernameLabel.text = entry.username
+        titleLabel.text = entry.title
     }
 }

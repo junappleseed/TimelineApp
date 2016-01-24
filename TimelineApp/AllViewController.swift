@@ -16,7 +16,7 @@ class AllViewController: UIViewController, UITableViewDelegate, UITableViewDataS
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.setupEntrys()
+        setupEntrys()
         
         tableView.delegate = self
         tableView.dataSource = self
@@ -32,7 +32,7 @@ class AllViewController: UIViewController, UITableViewDelegate, UITableViewDataS
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell: AllCustomCell = tableView.dequeueReusableCellWithIdentifier("AllCustomCell") as! AllCustomCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("AllCustomCell") as! AllCustomCell
         cell.setCell(entrys[indexPath.row])
         return cell
     }
