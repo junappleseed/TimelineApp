@@ -16,6 +16,8 @@
 		BF4C75521C415B6400192DE8 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = BF4C75511C415B6400192DE8 /* .gitignore */; };
 		BFB8112F1C42684300A8C22C /* AllCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB8112E1C42684300A8C22C /* AllCustomCell.swift */; };
 		BFB811311C426AA500A8C22C /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB811301C426AA500A8C22C /* Entry.swift */; };
+		BFEC034D1C65A0210002EB49 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEC034C1C65A0210002EB49 /* FeedViewController.swift */; };
+		BFEC034F1C65A3320002EB49 /* FeedCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEC034E1C65A3320002EB49 /* FeedCustomCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		BF4C75511C415B6400192DE8 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		BFB8112E1C42684300A8C22C /* AllCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllCustomCell.swift; sourceTree = "<group>"; };
 		BFB811301C426AA500A8C22C /* Entry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		BFEC034C1C65A0210002EB49 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		BFEC034E1C65A3320002EB49 /* FeedCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedCustomCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,12 +70,14 @@
 				BF4C75431C415AB600192DE8 /* Main.storyboard */,
 				BF4C753D1C415AB600192DE8 /* AppDelegate.swift */,
 				BF4C753F1C415AB600192DE8 /* AllViewController.swift */,
-				BF4C75411C415AB600192DE8 /* ProfileViewController.swift */,
+				BFEC034C1C65A0210002EB49 /* FeedViewController.swift */,
 				BFB8112E1C42684300A8C22C /* AllCustomCell.swift */,
+				BFEC034E1C65A3320002EB49 /* FeedCustomCell.swift */,
 				BFB811301C426AA500A8C22C /* Entry.swift */,
 				BF4C75461C415AB600192DE8 /* Assets.xcassets */,
 				BF4C754B1C415AB600192DE8 /* Info.plist */,
 				BF4C75511C415B6400192DE8 /* .gitignore */,
+				BF4C75411C415AB600192DE8 /* ProfileViewController.swift */,
 			);
 			path = TimelineApp;
 			sourceTree = "<group>";
@@ -153,6 +159,8 @@
 				BF4C75421C415AB600192DE8 /* ProfileViewController.swift in Sources */,
 				BF4C753E1C415AB600192DE8 /* AppDelegate.swift in Sources */,
 				BFB8112F1C42684300A8C22C /* AllCustomCell.swift in Sources */,
+				BFEC034F1C65A3320002EB49 /* FeedCustomCell.swift in Sources */,
+				BFEC034D1C65A0210002EB49 /* FeedViewController.swift in Sources */,
 				BF4C75401C415AB600192DE8 /* AllViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

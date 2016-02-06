@@ -38,8 +38,8 @@ class AllViewController: UIViewController, UITableViewDelegate, UITableViewDataS
     }
     
     func setupEntrys() {
-        let e1 = Entry(username: "Javaちゃん", title: "このアプリについて")
-        let e2 = Entry(username: "Swiftちゃん", title: "Markdown記法チートシート")
+        let e1 = Entry(username: "Javaちゃん", title: "このアプリについて", updateTime: "2016/02/06", tags: "Java")
+        let e2 = Entry(username: "Swiftちゃん", title: "Markdown記法チートシート", updateTime: "2016/02/05", tags: "Swift, iOS")
         entrys.append(e1)
         entrys.append(e2)
     }

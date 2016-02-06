@@ -11,9 +11,13 @@ import Foundation
 class Entry: NSObject {
     var username: String
     var title: String
+    var updateTime: String
+    var tags: String
     
-    init(username: String, title: String) {
+    init(username: String, title: String, updateTime: String, tags: String) {
         self.username = username
         self.title = title
+        self.updateTime = updateTime
+        self.tags = tags
     }
 }
