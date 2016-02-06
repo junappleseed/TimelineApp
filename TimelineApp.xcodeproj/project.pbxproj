@@ -62,16 +62,16 @@
 		BF4C753C1C415AB600192DE8 /* TimelineApp */ = {
 			isa = PBXGroup;
 			children = (
-				BF4C75511C415B6400192DE8 /* .gitignore */,
+				BF4C75481C415AB600192DE8 /* LaunchScreen.storyboard */,
+				BF4C75431C415AB600192DE8 /* Main.storyboard */,
 				BF4C753D1C415AB600192DE8 /* AppDelegate.swift */,
 				BF4C753F1C415AB600192DE8 /* AllViewController.swift */,
 				BF4C75411C415AB600192DE8 /* ProfileViewController.swift */,
-				BF4C75431C415AB600192DE8 /* Main.storyboard */,
-				BF4C75461C415AB600192DE8 /* Assets.xcassets */,
-				BF4C75481C415AB600192DE8 /* LaunchScreen.storyboard */,
-				BF4C754B1C415AB600192DE8 /* Info.plist */,
 				BFB8112E1C42684300A8C22C /* AllCustomCell.swift */,
 				BFB811301C426AA500A8C22C /* Entry.swift */,
+				BF4C75461C415AB600192DE8 /* Assets.xcassets */,
+				BF4C754B1C415AB600192DE8 /* Info.plist */,
+				BF4C75511C415B6400192DE8 /* .gitignore */,
 			);
 			path = TimelineApp;
 			sourceTree = "<group>";
